@@ -6,16 +6,20 @@ h1{
 
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
  color: red;
 }
-section{
+.flexible{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
 width: 50%;
 padding-left: 4%;
+padding-right: 2%;
 }
 .half-width img{
     width: 80%;
@@ -38,4 +42,38 @@ padding-left: 4%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+h3{
+    color: orange;
+}
+section p{
+    text-align:justify;
+}
+.shadow{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 4%;
+    padding-right: 50px;
+    box-shadow: 10px 10px 30px rgb(27, 27, 25);
+    border-radius: 20px;
+
+}
+.exp-me{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border{
+    border-left: 10px solid;
+    border-image:linear-gradient(orange, red) ;
+    border-image-slice: 1;
+}
+#border2{
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(35, 18, 131), rgb(79, 151, 20)) ;
+    border-image-slice: 9;
+}
+footer{
+    text-align:center ;
 }
